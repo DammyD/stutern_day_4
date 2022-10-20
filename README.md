@@ -13,12 +13,12 @@
 There are a couple of ways to get our new Chapter 2 into the main branch and into GitHub, and the way we choose depends on the project and what workflow we're using to collaborate with others.
 First let's talk about a couple different workflows we could use. 
 -The first one is the most straightforward:
- *Merge changes from chapter-2 into our local main branch*
- *Push local main branch to origin/main*
+ - *Merge changes from chapter-2 into our local main branch*
+ - *Push local main branch to origin/main*
  - The second way is a little more complicated:
- *Push our local chapter-2 branch to origin (this creates a new branch on origin called origin/chapter-2)*
- *Merge origin/chapter-2 into origin/main on GitHub*
-*Pull down the new changes from origin/main into our local main*
+ - *Push our local chapter-2 branch to origin (this creates a new branch on origin called origin/chapter-2)*
+ - *Merge origin/chapter-2 into origin/main on GitHub*
+- *Pull down the new changes from origin/main into our local main*
 - The first workflow is definitely easier, and it is something I would use if I was working on this project by myself without any other collaborators.
 - However, if I had collaborators, I wouldn't want to push directly to the main branch from my local. By doing so I would be changing and taking control of the history of the project solely on my own changes—without any input or review from collaborators.
 - For this reason, if there were multiple people working on the same project, I would use the second workflow because it is a better collaboration process for the team.
